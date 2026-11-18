@@ -1,0 +1,40 @@
+[1;32mqemu.base: output will be in this color.[0m
+
+[1;32m==> qemu.base: Retrieving ISO[0m
+[1;32m==> qemu.base: Trying /home/g07/isos/debian-13.7.0-amd64-DVD-1.iso[0m
+[1;32m==> qemu.base: Trying /home/g07/isos/debian-13.7.0-amd64-DVD-1.iso?checksum=sha256%3A347b6c67a3cc0b7ddb60b178f683470c4e2b7ac426c996d9337a2ff36c1a32d2[0m
+[1;32m==> qemu.base: /home/g07/isos/debian-13.7.0-amd64-DVD-1.iso?checksum=sha256%3A347b6c67a3cc0b7ddb60b178f683470c4e2b7ac426c996d9337a2ff36c1a32d2 => /home/g07/isos/debian-13.7.0-amd64-DVD-1.iso[0m
+[1;32m==> qemu.base: Starting HTTP server on port 8513[0m
+[1;32m==> qemu.base: Found port for communicator (SSH, WinRM, etc): 4204.[0m
+[1;32m==> qemu.base: Creating temporary RSA SSH key for instance...[0m
+[1;32m==> qemu.base: Looking for available port between 5900 and 6000 on 127.0.0.1[0m
+[1;32m==> qemu.base: Starting VM, booting from CD-ROM[0m
+[1;32m==> qemu.base: The VM will be run headless, without a GUI. If you want to
+==> qemu.base: view the screen of the VM, connect via VNC without a password to
+==> qemu.base: vnc://127.0.0.1:5923[0m
+[1;32m==> qemu.base: Waiting 5s for boot...[0m
+[1;32m==> qemu.base: Connecting to VM via VNC (127.0.0.1:5923)[0m
+[1;32m==> qemu.base: Typing the boot commands over VNC...[0m
+[1;32m==> qemu.base: Not using a NetBridge -- skipping StepWaitGuestAddress[0m
+[1;32m==> qemu.base: Using SSH communicator to connect: 127.0.0.1[0m
+[1;32m==> qemu.base: Waiting for SSH to become available...[0m
+[1;32m==> qemu.base: Connected to SSH![0m
+[1;32m==> qemu.base: Uploading /mnt/d/Development/Project-g07/v1/build-work/admin.pub => /tmp/admin.pub[0m
+[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00%
+[1A[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00%
+[1A[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00%
+[1A[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00%
+[1A[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00%
+[1A[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00%
+[1A[0;32m    qemu.base: admin.pub[0m 94 B / 94 B  100.00% 1s
+[1;32m==> qemu.base: Provisioning with shell script: /mnt/d/Development/Project-g07/v1/build-work/provision.sh[0m
+[1;32m==> qemu.base: Downloading /tmp/packages.tsv => /mnt/d/Development/Project-g07/v1/build-work/packages.tsv[0m
+[1;32m==> qemu.base: Provisioning with shell script: /tmp/packer-shell3104055518[0m
+[1;32m==> qemu.base: Gracefully halting virtual machine...[0m
+[1;32m==> qemu.base: Converting hard drive...[0m
+[1;32mBuild 'qemu.base' finished after 27 minutes 13 seconds.[0m
+
+==> Wait completed after 27 minutes 13 seconds
+
+==> Builds finished. The artifacts of successful builds are:
+--> qemu.base: VM files in directory: /mnt/d/Development/Project-g07/v1/output/rag-base
